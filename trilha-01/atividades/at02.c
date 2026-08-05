@@ -1,7 +1,9 @@
 #include <stdio.h>
+#include <locale.h>
 
 // Atividade 02: Churrasco de Domingo
 int main() {
+  // setlocale(LC_ALL, "Portuguese_Brazil.1252");
   int pessoas;
 
   printf("\n=== PROGRAMA DISTRIBUIÇÃO CHURRASCO DE DOMINGO ===\n");

@@ -1,6 +1,10 @@
 #include <stdio.h>
+#include <locale.h>
 
+// Atividade 03: Churrasco de Domingo
 int main() {
+  // setlocale(LC_ALL, "Portuguese_Brazil.1252");
+
   float media, nota1, nota2, nota3;
   char nome[20];
 

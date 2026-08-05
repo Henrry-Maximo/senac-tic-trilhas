@@ -3,7 +3,7 @@
 
 // Atividade 01: Estudante Universitário
 int main() {
-  setlocale(LC_ALL, "Portuguese_Brazil.1252");
+  // setlocale(LC_ALL, "Portuguese_Brazil.1252");
   char name[30], course[50], hobby[100];
   int semester;
 
